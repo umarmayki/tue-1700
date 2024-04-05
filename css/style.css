@@ -25,3 +25,41 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+.express__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.express__card {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  overflow: hidden;
+}
+.card__desc {
+  position: absolute;
+  left: 0;
+  bottom: -40%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  max-width: 350px;
+  width: 100%;
+  padding: 15px;
+  /* background: rgba(75, 72, 72, 0.7); */
+  transition: 0.5s;
+  
+}
+.express__card:hover .card__desc {
+  bottom: 0;
+}
+.express__card-img {
+  max-width: 350px;
+  width: 100%;
+}
